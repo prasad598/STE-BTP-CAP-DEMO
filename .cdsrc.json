@@ -1,0 +1,12 @@
+{
+  "cds": {
+    "requires": {
+      "db": {
+        "kind": "hana",
+        "credentials": {
+          "schema": "SAP_HANA_CORE"
+        }
+      }
+    }
+  }
+}

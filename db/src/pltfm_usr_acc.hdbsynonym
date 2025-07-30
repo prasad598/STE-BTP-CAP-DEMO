@@ -1,0 +1,8 @@
+{
+  "PLTFM_USR_ACC": {
+    "target": {
+      "schema": "SAP_HANA_CORE",
+      "object": "PLTFM_USR_ACC"
+    }
+  }
+}
