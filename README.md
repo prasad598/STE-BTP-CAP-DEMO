@@ -26,6 +26,6 @@ Learn more at https://cap.cloud.sap/docs/get-started/.
 
 ## Using Existing HANA Schema
 
-This project is configured to consume the existing HANA schema `SAP_HANA_CORE` and table `PLTFM_USR_ACC`. The CAP model `db/external.cds` marks the entity `UserAccounts` as an existing table and maps it to the fully qualified name `"SAP_HANA_CORE"."PLTFM_USR_ACC"`.
+This project is configured to consume the existing HANA schema `SAP_HANA_CORE` and table `PLTFM_USR_ACC`. The CAP model `db/src/external.cds` marks the entity `UserAccounts` as an existing table and maps it to the fully qualified name `"SAP_HANA_CORE"."PLTFM_USR_ACC"`.
 
 The `.cdsrc.json` file sets the schema for the database connection. Ensure that the application has privileges to access this schema at runtime.
